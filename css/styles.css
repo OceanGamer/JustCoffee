@@ -1,0 +1,591 @@
+body {
+	background-color: #1F1F1F;
+}
+
+
+/*HEADER OF THE PAGES*/
+.toppage {
+	background-color: #121212;
+}
+
+#header-nav{
+	border: 0px;
+	border-radius: 0;
+	border: 0;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+	margin: 5px 5px 5px 5px;
+}
+
+.titletext1 {
+	font-family: 'Allerta Stencil', sans-serif;
+	color: #FFFFFF;
+	font-size: 40px;
+}
+
+.titletext1:hover {
+	text-decoration: none;
+}
+
+#nav-list a{
+	font-family: arial, serif;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #B45F04;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+}
+
+/*FOOTER*/
+.panel-footer {
+	background-color: #121212;
+	border: 0px;
+	border-radius: 0;
+	border: 0;
+}
+
+.smallspan3 {
+	color: white;
+}
+.smallspan4 {
+	color: white;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.content09 {
+	text-align: center;
+}
+/*INICIO CONTENT*/
+.counterbox {
+	width: 50%;
+	height: 400px;
+	background-color: #696969;
+	background-image: url(../images/fondo.png);
+	background-size: cover;
+	overflow: hidden;
+	border-radius: 15px;
+	margin-bottom: 50px;
+}
+
+.counterbox6 {
+	width: 60%;
+	background-color: #696969;
+	background-image: url(../images/podback.JPG);
+	background-size: 400px 300px;
+	background-position: top;
+	overflow: hidden;
+	border-radius: 15px;
+	margin-bottom: 50px;
+}
+.counterbox66 {
+	float: right;
+	width: 60%;
+	background-color: #696969;
+	background-image: url(../images/podback.JPG);
+	background-size: 400px 300px;
+	background-position: top;
+	overflow: hidden;
+	border-radius: 15px;
+	margin-bottom: 50px;
+}
+
+.counterbox65 {
+	width: 100%;
+	padding-right: 20px; 
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #696969;
+	background-image: url(../images/podback.JPG);
+	background-size: 100%;
+	background-position: top;
+	overflow: hidden;
+	border-radius: 15px;
+	margin-bottom: 50px;
+}
+.counterbox67 {
+	width: 100%;
+	padding-right: 45%; 
+	padding-left: 45%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #696969;
+	background-image: url(../images/podback.JPG);
+	background-size: 100%;
+	background-position: top;
+	overflow: hidden;
+	border-radius: 15px;
+	margin-bottom: 50px;
+}
+.counterbox3 {
+	width: 100%;
+	height: 200px;
+	background-color: #696969;
+	background-image: url(../images/podback.JPG);
+	background-size: 100% 300px;
+	overflow: hidden;
+	border-radius: 15px;
+	margin-bottom: 50px;
+}
+
+.counterbox4 {
+	width: 100%;
+	height: 300px;
+	background-color: #696969;
+	background-image: url(../images/podback.JPG);
+	background-size: 100% 600px;
+	overflow: hidden;
+	border-radius: 15px;
+	margin-bottom: 50px;
+}
+.counterbox2 {
+	width: 50%;
+	height: 400px;
+	border-radius: 15px; 
+	margin-bottom: 50px;
+}
+
+.counterbox5 {
+	width: 100%;
+	height: 80px;
+	background-color: #696969;
+	background-image: url(../images/fondo.png);
+	background-size: 1150px;
+	border-radius: 15px; 
+	margin-bottom: 50px;
+	padding-top: 1px;
+	padding-left: 5%;
+}
+.counterbox5 span {
+	font-size: 50px;
+	color: purple;
+	text-shadow: 1px 1px 1px black; 
+	font-weight: bold;
+}
+
+.counterbox5 h2 {
+	font-size: 50px;
+	color: white;
+	font-weight: bold;
+}
+
+.counterbox2 p {
+	font-size: 50px;
+	color: #FFFFFF; 
+}
+
+.counterbox2 span {
+	font-size: 50px;
+	color: #009EFF; 
+}
+
+#smallspan {
+	font-size: 18px;
+	color: #FFFFFF; 
+	overflow-wrap: break-word;
+}
+
+#smallspan2 {
+	padding-top: 4px;
+	padding-left: 8px;
+	font-size: 15px;
+	color: #FFFFFF; 
+	font-weight: bold;
+}
+.generallogo {
+	margin:auto;
+	display:block;
+	width: 350px;
+	height: 350px;
+}
+
+.smallbox1 {
+	width: 210px;
+	height: 130px;
+	background-color: #696969;
+	border-radius: 15px;
+}
+
+.smallbox2 {
+	margin-left: 12%;
+	margin-right: 12%;
+}
+
+.socialbutton {
+	width: 50px;
+	height: 50px;
+}
+
+.h2 {
+	margin-top: 4px;
+	font-size: 40px;
+	color: #FFFFFF; 
+}
+
+/*Podcast Banners*/
+
+.podcontainer {
+	padding-top: 100px;
+}
+
+.hr {
+	margin:auto;
+	display:block;
+	height: 200px;
+	width: 80%;
+}
+
+.podicon {
+	margin-top: 20px;
+ 	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	border-radius: 15px;
+	float: left;
+}
+.podicon2 {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 15px;
+	background-color: #FFFFFF;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 0 0 0 0;
+}
+.podicon2 img{
+	height: 100%;
+	width: 100%;
+}
+.cubecraft {
+	margin-top: 15px;
+}
+.cubecraft2 {
+	margin-top: 15px;
+	padding-top: 2px;
+	border-radius: 15px;
+	margin-right: 5px;
+}
+
+
+.subtitle {
+	text-align: center;
+	font-size: 22px;
+	color: white;
+}
+.pa {
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+}
+
+.podh2 {
+	padding-top: 4px;
+	font-size: 40px;
+	color: #FFFFFF; 
+}
+
+.podp {
+	padding-top: 4px;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.podp2 {
+	padding-right: 30px;
+	padding-top: 20px;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: right;
+}
+
+.podh2 span{
+	padding-top: 4px;
+	font-size: 40px;
+	color: green; 
+}
+.podcontainer3 {
+	width: 63%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.buttonpod {
+	width: 160px;
+	height: 50px;
+	border: 5px solid white;
+	border-radius: 15px;
+	padding-top: 10px;
+	margin-top: 50px;
+	margin-left: 70px;
+	text-align: center;
+}
+
+.sometimes {
+	width: 200px;
+	height: 200px;
+	float: right;
+	padding-right: 80px;
+
+}
+.buttonpod2 {
+	margin:auto;
+	display:block;
+	width: 160px;
+	height: 50px;
+	border: 5px solid white;
+	border-radius: 15px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.buttonpod > span {
+	color: white;
+	font-family: arial, serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+
+}
+
+.buttonpod2 > span {
+	color: white;
+	font-family: arial, serif;
+	font-weight: bold;
+
+}
+
+/*RESOLUTIONS CHANGES*/
+
+/*Long*/
+@media (min-width: 1200px) {
+
+}
+
+/*mid*/
+@media (min-width: 992px) and (max-width: 1199px) {
+.counterbox2 span {
+	font-size: 45px;
+	color: #009EFF; 
+}
+.counterbox2 p {
+	font-size: 45px;
+	color: #FFFFFF; 
+}
+
+/*podtable*/
+.podh2 {
+	padding-top: 4px;
+	font-size: 30px;
+	color: #FFFFFF; 
+}
+.podh2 span{
+	padding-top: 4px;
+	font-size: 30px;
+	color: green; 
+}
+.podp {
+	padding-top: 4px;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+.podcontainer3 {
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+}
+.podcontainer2 {
+	margin-right: 0px;
+	margin-left: 50px;
+	height: 100%;
+}
+.podp2 {
+	padding-right: 0px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-align: right;
+}
+.buttonpod {
+	margin-left: 50px;
+}
+.counterbox67 {
+	padding-left: 42%;
+	padding-right: 42%;
+}
+}
+
+/*small*/
+@media (max-width: 991px) {
+
+	.titletext1 {
+	font-size: 30px;
+	}
+	.logo {
+	width: 80px;
+	height: 80px;
+	margin: 2px 2px 2px 2px;
+	}
+	#nav-list a{
+		font-weight: normal;
+		font-size: 13px;
+	}
+	.counterbox2 span {
+	font-size: 35px;
+	color: #009EFF; 
+	}
+	.counterbox2 p {
+	font-size: 35px;
+	color: #FFFFFF; 
+	}
+	.counterbox67 {
+	padding-left: 42%;
+	padding-right: 42%;
+}
+	/*podtable*/
+.podh2 {
+	padding-top: 4px;
+	font-size: 25px;
+	color: #FFFFFF; 
+}
+.podh2 span{
+	padding-top: 4px;
+	font-size: 25px;
+	color: green; 
+}
+.podp {
+	padding-top: 4px;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+.podcontainer3 {
+	width: 45%;
+	height: 100%;
+	overflow: hidden;
+}
+.podcontainer2 {
+	margin-right: 0px;
+	margin-left: 45px;
+	height: 100%;
+}
+.podp2 {
+	padding-right: 0px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-align: right;
+}
+.buttonpod {
+	margin-left: 0px;
+}
+.counterbox5 h2 {
+	font-size: 30px;
+}
+.counterbox5 span {
+	font-size: 30px;
+}
+.counterbox6 {
+	width: 100%
+	}
+.counterbox66 {
+	width: 100%
+	}
+}
+
+/*very small*/
+@media (max-width: 767px) {
+	#nav-list a{
+		font-weight: bold;
+	}
+
+	.counterbox {
+		width: 100%;
+		height: 250px;
+	}
+
+	.counterbox2 {
+		width: 100%;
+	}
+	.generallogo {
+	margin:auto;
+	display:block;
+	width: 200px;
+	height: 200px;
+	}
+	.counterbox67 {
+	padding-left: 35%;
+	padding-right: 35%;
+}
+	/*podtable*/
+.podh2 {
+	padding-top: 4px;
+	font-size: 18px;
+	color: #FFFFFF; 
+}
+.podh2 span{
+	padding-top: 4px;
+	font-size: 15px;
+	color: green; 
+}
+.podp {
+	padding-top: 4px;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.podcontainer3 {
+	width: 70%;
+	height: 200px;
+}
+.podcontainer2 {
+	margin-bottom: 10px;
+	height: 100px;
+}
+.podp2 {
+	padding-top: 0px;
+	font-size: 0px;
+}
+.buttonpod {
+	float: right;
+}
+.counterbox3 {
+	height: 350px;
+	width: 100%
+}
+.podicon {
+	margin-top: 20px;
+ 	width: 80px;
+	height: 80px;
+}
+
+.counterbox5 h2 {
+	font-size: 25px;
+}
+.counterbox5 span {
+	font-size: 25px;
+}
+
+.counterbox4 {
+	height: 450px;
+	width: 100%
+}
+
+.counterbox6 {
+	width: 100%
+	}
+.counterbox66 {
+	width: 100%
+	}
+}
