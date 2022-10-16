@@ -74,11 +74,15 @@
 			</div>
 			<div class="form-group">
 				<label for="mensaje">Tu Mensaje: </label>
-  				<input type="text" class="form-control" name='mensaje' rows="3" placeholder="tu mensaje..."></textarea>
+  				<textarea type="text" class="form-control" name='mensaje' rows="3" placeholder="tu mensaje..."></textarea>
 			</div>
   			<div class="form-group">
 				<input type="checkbox" required> Acepto que si envio algun Contenido no deseado sera REPORTADO y usted BLOQUEADO.
 			</div>
+				<input type="hidden" name="_captcha" value="false">
+				<input type="hidden" name="_autoresponse" value="Gracias por enviarnos tu comentario!, te responderemos en las proximas 48 horas!. ATT: JustCoffee.">
+				<input type="hidden" name="_next" value="https://justcoffee.tk/index.html">
+				
 				<button class="btn btn-primary" type="submit">Enviar</button>
 
 		</form>
