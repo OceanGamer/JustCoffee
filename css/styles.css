@@ -80,6 +80,10 @@ body {
 	margin-bottom: 50px;
 }
 
+.podcontainer2 {
+	float: right;	
+}
+
 .counterbox6 {
 	width: 60%;
 	background-color: #696969;
@@ -143,7 +147,6 @@ body {
 
 .counterbox4 {
 	width: 100%;
-	height: 300px;
 	background-color: #696969;
 	background-image: url(../images/podback.jpg);
 	background-size: 100% 600px;
@@ -339,7 +342,6 @@ body {
 	width: 200px;
 	height: 200px;
 	float: right;
-	padding-right: 80px;
 
 }
 .buttonpod2 {
@@ -407,11 +409,7 @@ body {
 	height: 100%;
 	overflow: hidden;
 }
-.podcontainer2 {
-	margin-right: 0px;
-	margin-left: 50px;
-	height: 100%;
-}
+
 .podp2 {
 	padding-right: 0px;
 	padding-top: 20px;
@@ -476,11 +474,7 @@ body {
 	height: 100%;
 	overflow: hidden;
 }
-.podcontainer2 {
-	margin-right: 0px;
-	margin-left: 45px;
-	height: 100%;
-}
+
 .podp2 {
 	padding-right: 0px;
 	padding-top: 20px;
@@ -549,10 +543,7 @@ body {
 	width: 70%;
 	height: 200px;
 }
-.podcontainer2 {
-	margin-bottom: 10px;
-	height: 100px;
-}
+
 .podp2 {
 	padding-top: 0px;
 	font-size: 0px;
@@ -578,7 +569,6 @@ body {
 }
 
 .counterbox4 {
-	height: 450px;
 	width: 100%
 }
 
