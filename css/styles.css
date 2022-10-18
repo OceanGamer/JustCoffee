@@ -250,8 +250,8 @@ body {
 
 .podicon {
 	margin-top: 20px;
- 	width: 150px;
-	height: 150px;
+ 	width: 100px;
+	height: 100px;
 	overflow: hidden;
 	background-color: #FFFFFF;
 	border-radius: 15px;
@@ -566,8 +566,8 @@ body {
 }
 .podicon {
 	margin-top: 20px;
- 	width: 80px;
-	height: 80px;
+ 	width: 100px;
+	height: 100px;
 }
 
 .counterbox5 h2 {
