@@ -149,10 +149,37 @@ body {
 	width: 100%;
 	background-color: #696969;
 	background-image: url(../images/podback.jpg);
-	background-size: 100% 600px;
+	background-size: 100% 500px;
 	overflow: hidden;
 	border-radius: 15px;
 	margin-bottom: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 20px;
+}
+.buttonbox1 {
+	width: 95%;
+	background-color: #131313;
+	background-size: 100% 500px;
+	overflow: hidden;
+	border-radius: 15px;
+	margin-bottom: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 20px;
+}
+
+.buttonbox1:hover {
+	background-color: #696969;
+}
+.buttonbox1 span {
+	font-family: arial, serif;
+	color: #FFFFFF;
+	font-size: 15px;
+	text-align: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
 }
 .counterbox2 {
 	width: 50%;
@@ -217,7 +244,7 @@ body {
 
 .smallbox1 {
 	width: 210px;
-	height: 130px;
+	height: 140px;
 	background-color: #696969;
 	border-radius: 15px;
 }
@@ -253,12 +280,7 @@ body {
 
 .podicon {
 	margin-top: 20px;
- 	width: 100px;
-	height: 100px;
-	overflow: hidden;
-	background-color: #FFFFFF;
 	border-radius: 15px;
-	float: left;
 }
 .podicon2 {
 	width: 200px;
@@ -270,6 +292,12 @@ body {
 	margin-top: 20px;
 	padding: 0 0 0 0;
 }
+
+.podicon3 {
+	width: 80px;
+	height: 80px;
+}
+
 .podicon2 img{
 	height: 100%;
 	width: 100%;
@@ -309,11 +337,14 @@ body {
 }
 
 .podp2 {
-	padding-right: 30px;
-	padding-top: 20px;
-	font-size: 20px;
+	font-size: 60px;
 	color: #FFFFFF;
 	text-align: right;
+}
+.podp3 {
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
 }
 
 .podh2 span{
@@ -328,13 +359,13 @@ body {
 }
 
 .buttonpod {
-	width: 160px;
-	height: 50px;
+	width: 120px;
+	height: 40px;
 	border: 5px solid white;
 	border-radius: 15px;
 	padding-top: 10px;
-	margin-top: 50px;
-	margin-left: 70px;
+	margin-left: 40px;
+	margin-bottom: 10px;
 	text-align: center;
 }
 
@@ -345,18 +376,27 @@ body {
 
 }
 .buttonpod2 {
-	margin:auto;
-	display:block;
-	width: 160px;
-	height: 50px;
-	border: 5px solid white;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 100px;
+	height: 60px;
+	background-color: #E7E6E6;
 	border-radius: 15px;
 	padding-top: 10px;
 	text-align: center;
 }
 
+.buttonpod2:hover {
+	background-color: #D2D2D2;
+}
+
+.buttonpod:hover {
+	border: 5px solid #D2D2D2;
+	color: #D2D2D2;
+}
+
 .buttonpod > span {
-	color: white;
+	color:white;
 	font-family: arial, serif;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px black;
@@ -364,7 +404,7 @@ body {
 }
 
 .buttonpod2 > span {
-	color: white;
+	color: black;
 	font-family: arial, serif;
 	font-weight: bold;
 
@@ -413,9 +453,8 @@ body {
 .podp2 {
 	padding-right: 0px;
 	padding-top: 20px;
-	font-size: 15px;
+	font-size: 20px;
 	color: #FFFFFF;
-	text-align: right;
 }
 .buttonpod {
 	margin-left: 50px;
@@ -554,11 +593,6 @@ body {
 .counterbox3 {
 	height: 350px;
 	width: 100%
-}
-.podicon {
-	margin-top: 20px;
- 	width: 100px;
-	height: 100px;
 }
 
 .counterbox5 h2 {
